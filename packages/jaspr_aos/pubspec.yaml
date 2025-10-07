@@ -1,0 +1,14 @@
+# author: Kevin Scheeren | Cube Algos UG (haftungsbeschränkt)
+name: jaspr_aos
+description: AOS.css support for dart web projects using jaspr.
+version: 1.0.0
+repository: https://github.com/cubealgos/websites/packages/jaspr_aos
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
