@@ -8,6 +8,7 @@ environment:
   sdk: ^3.9.0
 
 dependencies:
+  jaspr: ^0.21.3
 
 dev_dependencies:
   lints: ^6.0.0
