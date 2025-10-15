@@ -10,6 +10,10 @@ environment:
 dependencies:
   jaspr: ^0.21.3
   jaspr_aos:
+    git:
+      url: git@github.com:cubealgos/cubealgos_jaspr.git
+      ref: master
+      path: packages/jaspr_aos
 
 dev_dependencies:
   lints: ^6.0.0
