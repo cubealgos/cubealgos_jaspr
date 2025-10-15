@@ -1,4 +1,4 @@
-name: websites
+name: cubealgos_jaspr
 
 packages:
   - packages/**

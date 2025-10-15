@@ -1,5 +1,5 @@
 # author: Kevin Scheeren | Cube Algos UG (haftungsbeschränkt)
-name: websites
+name: cubealgos_jaspr
 
 environment:
   sdk: ^3.9.0

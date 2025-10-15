@@ -1,6 +1,6 @@
-# melos_managed_dependency_overrides: jaspr_aos,cubealgos_jaspr_ui
+# melos_managed_dependency_overrides: cubealgos_jaspr_ui,jaspr_aos
 dependency_overrides:
-  jaspr_aos:
-    path: ../../packages/jaspr_aos
   cubealgos_jaspr_ui:
     path: ../../packages/cubealgos_jaspr_ui
+  jaspr_aos:
+    path: ../../packages/jaspr_aos
