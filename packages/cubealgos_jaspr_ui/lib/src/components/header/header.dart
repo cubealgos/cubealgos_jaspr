@@ -64,16 +64,13 @@ class Header extends StatelessComponent {
                         a(
                           styles: Styles(
                             display: Display.flex,
-
+                            padding: Spacing.all(iconPadding),
                             justifyItems: JustifyItems.center,
                           ),
                           href: "/",
                           [
                             img(
-                              styles: Styles(
-                                height: Unit.rem(4.0),
-                                padding: Spacing.all(iconPadding),
-                              ),
+                              styles: Styles(height: Unit.rem(4.0)),
                               src: src,
                             ),
                           ],
