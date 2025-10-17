@@ -14,11 +14,19 @@ class AccordionTile extends StatelessComponent {
   final Color? backgroundBehind;
   final Color? background;
 
+  final Radius borderRadius = Radius.circular(Unit.rem(1.5));
+
   @override
   Component build(BuildContext context) {
     return div(styles: Styles(backgroundColor: backgroundBehind), [
       div(
-        styles: Styles(backgroundColor: background),
+        styles: Styles(
+          backgroundColor: background,
+          radius: BorderRadius.only(
+            topLeft: borderRadius,
+            topRight: borderRadius,
+          ),
+        ),
         attributes: Map.fromEntries([AOS.data(AOSAnimation.slideUp)]),
         [
           div(

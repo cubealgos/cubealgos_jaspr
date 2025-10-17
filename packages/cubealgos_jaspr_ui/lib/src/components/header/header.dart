@@ -34,6 +34,14 @@ class Header extends StatelessComponent {
                 maxWidth: Unit.pixels(1280),
                 margin: Spacing.all(Unit.rem(1.0)),
                 backgroundColor: background ?? DefaultColors.slate950,
+                radius: BorderRadius.all(Radius.circular(Unit.rem(0.5))),
+                shadow: BoxShadow(
+                  offsetX: Unit.pixels(0.0),
+                  offsetY: Unit.pixels(2.0),
+                  blur: Unit.pixels(4.0),
+                  spread: Unit.pixels(0.0),
+                  color: DefaultColors.neutral950,
+                ),
               ),
               [
                 div(

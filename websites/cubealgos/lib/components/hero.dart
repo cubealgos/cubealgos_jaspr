@@ -13,16 +13,16 @@ class Hero extends StatelessComponent {
         div(
           styles: Styles(
             display: Display.flex,
+            height: Unit.vh(100.0),
+            maxHeight: Unit.pixels(800.0),
             justifyContent: JustifyContent.center,
             alignItems: AlignItems.center,
-            maxHeight: Unit.pixels(800.0),
-            height: Unit.vh(100.0),
           ),
           [
             div(
               styles: Styles(
-                textAlign: TextAlign.center,
                 margin: Spacing.all(Unit.auto),
+                textAlign: TextAlign.center,
               ),
               [
                 img(
@@ -34,11 +34,9 @@ class Hero extends StatelessComponent {
                 ),
                 div(
                   styles: Styles(
-                    padding: Spacing.symmetric(
-                      vertical: Unit.rem(0.5),
-                      horizontal: Unit.rem(2.0),
-                    ),
                     maxWidth: Unit.pixels(1280),
+                    padding: Spacing.symmetric(
+                        vertical: Unit.rem(0.5), horizontal: Unit.rem(2.0)),
                   ),
                   [
                     Heading(

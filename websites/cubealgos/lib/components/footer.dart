@@ -18,6 +18,11 @@ const appFooter = Footer(
       title: Paragraph("Resources:", color: AppColors.textLight),
       links: [
         FooterLink(
+          href: ExternalLinks.docs,
+          title: "Documentation",
+          color: AppColors.textDark,
+        ),
+        FooterLink(
           href: ExternalLinks.github,
           title: "GitHub",
           color: AppColors.textDark,

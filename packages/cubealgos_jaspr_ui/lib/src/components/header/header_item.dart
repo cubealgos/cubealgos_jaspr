@@ -35,6 +35,7 @@ class HeaderItem extends StatelessComponent {
           right: Unit.rem(0.25),
           left: Unit.rem(0.25),
         ),
+        margin: Spacing.symmetric(horizontal: Unit.pixels(8.0)),
         fontSize: Unit.rem(0.875),
         color: color ?? DefaultColors.slate200,
         fontWeight: FontWeight.w500,

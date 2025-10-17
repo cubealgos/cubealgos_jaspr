@@ -10,5 +10,15 @@ const appHeader = Header(
       color: AppColors.text,
       highlight: AppColors.primaryLight,
     ),
+    HeaderItem(
+      href: ExternalLinks.docs,
+      title: "Docs",
+      color: AppColors.text,
+      highlight: AppColors.primaryLight,
+    ),
+    HeaderItem(
+        href: ExternalLinks.flaunch,
+        title: "Buy \$CUBE",
+        color: AppColors.primaryLight),
   ],
 );
