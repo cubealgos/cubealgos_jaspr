@@ -66,13 +66,15 @@ class Header extends StatelessComponent {
                         a(
                           styles: Styles(
                             display: Display.flex,
-                            padding: Spacing.all(iconPadding),
                             justifyItems: JustifyItems.center,
                           ),
                           href: "/",
                           [
                             img(
-                              styles: Styles(maxHeight: Unit.pixels(64.0)),
+                              styles: Styles(
+                                maxHeight: Unit.pixels(64.0),
+                                margin: Spacing.all(iconPadding),
+                              ),
                               src: src,
                             ),
                           ],
