@@ -35,6 +35,8 @@ class Header extends StatelessComponent {
               styles: Styles(
                 width: Unit.percent(100.0),
                 maxWidth: Unit.pixels(1280),
+                minHeight: Unit.pixels(64.0),
+                maxHeight: Unit.pixels(65.0),
                 margin: Spacing.all(Unit.rem(1.0)),
                 backgroundColor: background ?? DefaultColors.slate950,
                 radius: BorderRadius.all(Radius.circular(Unit.rem(0.5))),
