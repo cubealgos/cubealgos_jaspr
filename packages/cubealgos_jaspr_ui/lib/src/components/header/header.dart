@@ -10,7 +10,7 @@ class Header extends StatelessComponent {
     required this.destinations,
     required this.src,
     this.background,
-    this.iconSize = const Unit.pixels(64.0),
+    this.iconSize = 64.0,
     super.key,
   });
 
@@ -19,7 +19,7 @@ class Header extends StatelessComponent {
 
   final List<HeaderItem> destinations;
 
-  final Unit iconSize;
+  final double iconSize;
 
   @override
   Component build(BuildContext context) {
@@ -71,7 +71,12 @@ class Header extends StatelessComponent {
                           href: "/",
                           [
                             img(
-                              styles: Styles(maxHeight: iconSize),
+                              styles: Styles(
+                                maxHeight: Unit.pixels(iconSize),
+                                margin: Spacing.all(
+                                  Unit.pixels((64.0 - iconSize) / 2.0),
+                                ),
+                              ),
                               src: src,
                             ),
                           ],
