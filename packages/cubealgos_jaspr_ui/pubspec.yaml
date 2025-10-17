@@ -3,6 +3,7 @@ name: cubealgos_jaspr_ui
 description: Common UI Components fitting the Cubealgos Theme for jaspr.
 version: 1.0.0
 repository: https://github.com/cubealgos/websites/packages/cubealgos_jaspr_ui
+publish_to: none
 
 environment:
   sdk: ^3.9.0
