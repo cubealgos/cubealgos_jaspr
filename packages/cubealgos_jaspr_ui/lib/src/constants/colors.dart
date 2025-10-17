@@ -99,9 +99,9 @@ abstract class CubeAlgosColors {
 }
 
 abstract class WeAreNotABankColors {
-  static const Color primary = DefaultColors.emerald400;
-  static const Color primaryLight = DefaultColors.emerald300;
-  static const Color primaryDark = DefaultColors.emerald500;
+  static const Color primary = DefaultColors.emerald600;
+  static const Color primaryLight = DefaultColors.emerald400;
+  static const Color primaryDark = DefaultColors.emerald800;
   static const Color backgroundLight = DefaultColors.emerald900;
   static const Color background = DefaultColors.emerald950;
   static const Color backgroundDark = DefaultColors.neutral950;
@@ -114,12 +114,12 @@ abstract class CubesAndBlocksColors {
   static const Color primary = DefaultColors.amber400;
   static const Color primaryLight = DefaultColors.amber300;
   static const Color primaryDark = DefaultColors.amber400;
-  static const Color backgroundLight = DefaultColors.amber800;
-  static const Color background = DefaultColors.neutral900;
-  static const Color backgroundDark = DefaultColors.neutral950;
-  static const Color textLight = DefaultColors.neutral100;
-  static const Color text = DefaultColors.neutral200;
-  static const Color textDark = DefaultColors.neutral300;
+  static const Color backgroundLight = DefaultColors.neutral200;
+  static const Color background = DefaultColors.neutral300;
+  static const Color backgroundDark = DefaultColors.neutral400;
+  static const Color textLight = DefaultColors.neutral700;
+  static const Color text = DefaultColors.neutral900;
+  static const Color textDark = DefaultColors.neutral950;
 }
 
 abstract class BendingSpoonsColors {
