@@ -72,7 +72,7 @@ class Header extends StatelessComponent {
                           href: "/",
                           [
                             img(
-                              styles: Styles(height: Unit.rem(4.0)),
+                              styles: Styles(maxHeight: Unit.pixels(64.0)),
                               src: src,
                             ),
                           ],
