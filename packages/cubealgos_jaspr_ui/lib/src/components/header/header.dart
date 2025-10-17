@@ -10,6 +10,7 @@ class Header extends StatelessComponent {
     required this.destinations,
     required this.src,
     this.background,
+    this.iconPadding = Unit.zero,
     super.key,
   });
 
@@ -17,6 +18,8 @@ class Header extends StatelessComponent {
   final Color? background;
 
   final List<HeaderItem> destinations;
+
+  final Unit iconPadding;
 
   @override
   Component build(BuildContext context) {
@@ -67,7 +70,10 @@ class Header extends StatelessComponent {
                           href: "/",
                           [
                             img(
-                              styles: Styles(height: Unit.rem(4.0)),
+                              styles: Styles(
+                                height: Unit.rem(4.0),
+                                padding: Spacing.all(iconPadding),
+                              ),
                               src: src,
                             ),
                           ],
